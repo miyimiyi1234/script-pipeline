@@ -1,0 +1,12 @@
+pipeline{
+    agent any   
+    stages{ 
+        stage ("Hola Mundo") {
+        steps {
+            echo "🚀 ¡Hola desde VS Code a Jenkins!"
+            'echo "Fecha: $(date)"'  #Linux
+        
+            }
+        }
+    }   
+}
